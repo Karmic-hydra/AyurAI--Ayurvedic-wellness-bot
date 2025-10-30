@@ -1,0 +1,59 @@
+<<<<<<< HEAD
+{
+  "name": "ayurai",
+  "version": "1.0.0",
+  "description": "AyurAI - Ayurvedic Health Advisor with AI",
+  "main": "index.js",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "seed": "cd backend && node seedArticles.js",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start"
+  },
+  "keywords": [
+    "ayurveda",
+    "health",
+    "ai",
+    "wellness"
+  ],
+  "author": "HR Lithesh",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+=======
+{
+  "name": "ayurai",
+  "version": "1.0.0",
+  "description": "AyurAI - Ayurvedic Health Advisor with AI",
+  "main": "index.js",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "seed": "cd backend && node seedArticles.js",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start"
+  },
+  "keywords": [
+    "ayurveda",
+    "health",
+    "ai",
+    "wellness"
+  ],
+  "author": "HR Lithesh",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+>>>>>>> a2cf8be3231414d8dda9edc9e7035b7cb14ba96c
